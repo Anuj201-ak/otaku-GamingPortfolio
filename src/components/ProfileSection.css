@@ -1,0 +1,117 @@
+.profile-section {
+  flex: 1;
+  max-width: 500px;
+}
+
+.level-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  padding: 8px 16px;
+  margin-bottom: 30px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.level-text {
+  color: #333;
+}
+
+.player-profile {
+  color: #666;
+  font-weight: 400;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.name-orange {
+  color: #ff6b35;
+}
+
+.name-yellow {
+  color: #f7931e;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.skill-tag {
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.project-card {
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.project-card p {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 36px;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+  }
+  
+  .view-projects-btn,
+  .hire-me-btn {
+    justify-content: center;
+  }
+  
+  .project-cards {
+    grid-template-columns: 1fr;
+  }
+}

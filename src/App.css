@@ -1,0 +1,16 @@
+.app {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f4bf98 0%, #f0d982 100%);
+  min-height: 100vh;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 15px;
+    border-radius: 15px;
+  }
+}

@@ -1,0 +1,86 @@
+.character-card {
+  background: white;
+  border: 3px solid #ff6b35;
+  border-radius: 20px;
+  padding: 20px;
+  width: 280px;
+  position: relative;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.rank-badge {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  background: #ff6b35;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(255, 107, 53, 0.3);
+}
+
+.character-image-container {
+  background: linear-gradient(135deg, #e8f4f8 0%, #d1e7dd 100%);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.character-image {
+  max-width: 100%;
+  max-height: 350px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.character-stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.stat-item {
+  background: #f8f9fa;
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  padding: 8px 16px;
+  flex: 1;
+  text-align: center;
+}
+
+.stat-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 2px;
+}
+
+.stat-value {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .character-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .character-image-container {
+    min-height: 250px;
+  }
+  
+  .character-image {
+    max-height: 230px;
+  }
+}
