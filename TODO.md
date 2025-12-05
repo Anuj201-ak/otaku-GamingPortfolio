@@ -1,4 +1,0 @@
-- [ ] Update vite.config.js base to "/otaku-GamingPortfolio/"
-- [ ] Update package.json homepage to "https://anuj32737-sketch.github.io/otaku-GamingPortfolio"
-- [ ] Update src/main.jsx BrowserRouter basename to "/otaku-GamingPortfolio"
-- [ ] Run npm run deploy to rebuild and redeploy
